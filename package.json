@@ -18,6 +18,7 @@
     "startCommand": "npm run test:ui"
   },
   "dependencies": {
-    "@vitest/web-worker": "^0.26.0"
+    "@vitest/web-worker": "^0.26.0",
+    "happy-dom": "^8.1.0"
   }
 }
