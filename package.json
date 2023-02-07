@@ -10,14 +10,16 @@
     "test:run": "vitest run"
   },
   "devDependencies": {
+    "@vitest/browser": "^0.28.4",
     "@vitest/ui": "latest",
-    "vite": "latest",
-    "vitest": "latest"
+    "happy-dom": "^8.2.6",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4"
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
   },
   "dependencies": {
-    "@vitest/web-worker": "^0.26.0"
+    "@vitest/web-worker": "^0.28.4"
   }
 }
